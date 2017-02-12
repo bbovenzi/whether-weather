@@ -1,0 +1,17 @@
+.button {
+  height: 50px;
+  width: 100px;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin: 10px auto;
+  transition: all ease-in-out .5s;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.circle {
+  border-radius: 50%;
+  width: 50px;
+}
