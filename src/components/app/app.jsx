@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import City from '../city';
 import './style.scss';
-import CrazyButton from '../crazyButton';
 
 const APIKEY = 'd01b2c5449aaa2687f90bc71e092aaea';
 
@@ -79,7 +78,6 @@ class App extends Component {
     return (
       <div className="app">
         <div className="app-intro">
-          <CrazyButton />
           <h2>Your Local Weather</h2>
           <City 
             weatherForecast={weatherForecast}
